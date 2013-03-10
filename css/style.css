@@ -1,0 +1,144 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+img{border:0px;}
+html{
+	width:100%;
+	height:100%;
+	/*background-color:#080808;*/
+/*	background-color:#C60;*/
+}
+body{
+	width:80%;
+	min-width:800px;
+	height:100%;
+	margin:0 auto;
+	font-size:15px;
+	font-family:Helvetica, arial;
+}
+
+#header{
+	height:25px;
+	background-color:#fafafa;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#header #brand{
+	font-size:1.3em;
+	color: #4183c4;
+}
+
+#header .right{
+	float:right;
+}
+
+#main{
+	min-height:500px;
+}
+
+#main .right{
+	text-align:right;
+}
+
+#footer{
+	width:100%;
+	text-align:center;
+	font-family:Tahoma, Helvetica, sans-serif;
+	font-size:10px;
+	color:#9A9A9A;
+	padding:28px 0 20px 0;
+	clear:both;
+}
+
+#pkresult{
+	color:red;
+	font-size:1.3em;
+	text-align:center;
+	height:50px;
+	padding-top:10px;
+}
+
+#girlleft{
+	width:49.8%;
+	float:left;
+	text-align:left;
+}
+
+#girlright{
+	width:49.8%;
+	float:right;
+	text-align:left;
+}
+
+.girlimg{
+	width:100%;
+	border:1px solid #e5e5e5;
+}
+
+.girldesc{
+	float:left;
+}
+
+.girlheart{
+	/*min-width:50px;*/
+	float:right;
+}
+
+.girlface{
+	clear:both;
+}
+
+a {
+color: #4183c4;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.lovenum {
+	color:red;
+	font-weight:bold;
+}
+
+/*.login_footer{font-size:80%}*/
+/*jQuery UI fakes*/ 
+
+.ui-widget {font-size: 0.8em;}
+.ui-dialog .ui-dialog-buttonpane {
+	padding-top: .1em;
+	padding-bottom: .1em;
+} 
+.ui-button-text-only .ui-button-text { padding: .3em .8em; }
+
+#usr_add table tr{
+	height:30px;
+}
+
+#usr_add table td{
+	text-align:right;
+}
+
+#usr_add .subdesc{
+	width:50px;
+	height:25px;
+}
+
+#usr_login {
+	padding-top: 10px;
+}
+
+#usr_login table tr{
+	height:40px;
+}
+
+#usr_login table td{
+	text-align:right;
+}
+
+#usr_login .subdesc{
+	width:50px;
+	height:25px;
+}

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: small;
+  font-family: 宋体, sans-serif;
+  line-height: 150%;
+  margin: 0px;
+  min-width: 800px;
+}
+
+#main_wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+}
+
+#header_wrapper{
+	height:50px;
+	background-image: url(../img/header.png);
+  background-position: top left;
+  background-repeat: repeat-y;
+}
+
+#footer_wrapper{
+	text-align:center;
+	/*background-color:#999;*/
+}
+
+.tablecls table{
+  width:100%;
+  border-collapse: collapse;
+}
+
+.tablecls thead{
+  background-color: #6a6a6a;
+  color:white;
+}
+
+.tablecls tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border-bottom: 1px #E5E5E5 solid;
+}
+
+.tablecls td{
+  line-height: 20px;
+  border-width: 1px 0;
+  padding: 4px 10px;
+}
+
+.tablecls table tbody tr:hover{background-color: #E9F3FF;}
+
+.leftcol{text-align:left}
+.centercol{text-align:center}
+.rightcol{text-align:right}
+
+.item_oper{width:20%}
+.item_id{width:15%}
+.item_name{width:20%}
+.item_desc{width:45%}
+
+.plan_oper{width:15%}
+.plan_id{width:10%}
+.plan_name{width:30%}
+.plan_desc{width:35%}
+.task_num{width:10%}
+
+#project_footer{
+	background-color: #eaeaea;
+	text-align: right;
+}
+#story_footer{
+	background-color:#eaeaea;
+	text-align:right;
+}
+#task_footer{
+	background-color:#eaeaea;
+	text-align:right;
+}
+#schedule_footer{
+	background-color:#eaeaea;
+	text-align:right;
+}
+#login_id {
+	width: 200px;
+	margin-left: auto;
+  margin-right: auto;
+}
+#user_wel{float:right;}
+
+/*.login_footer{font-size:80%}*/
+/*jQuery UI fakes*/ 
+
+.ui-widget {font-size: 0.8em;}
+.ui-dialog .ui-dialog-buttonpane {
+	padding-top: .1em;
+	padding-bottom: .1em;
+} 
+.ui-button-text-only .ui-button-text { padding: .3em .8em; }
+
+#date_desc {color:red;}
